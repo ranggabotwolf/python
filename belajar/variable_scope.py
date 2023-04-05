@@ -22,6 +22,6 @@ def coba():
 
 
 # Code perintah print dibawah error, karena code itu berada diluar code def coba() baris ke 19 (*ingat, indentasi di python sangat berpengaruh)
-# Code dibawah error karena variable umur tidak terdefinisi, karena perintah dibawah sudah diluar indentasi code baris ke 19
+# ! Code dibawah error karena variable umur tidak terdefinisi, karena perintah dibawah sudah diluar indentasi code baris ke 19
 print(umur)
 coba()

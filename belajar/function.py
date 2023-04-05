@@ -17,7 +17,7 @@ print("\n")
 
 
 def halo(nama=input("Siapa nama anda? ")):
-    print('Halo, ' + nama)
+    print(f'Halo, {nama}')
 
 
 # hello('Rangga')
@@ -31,7 +31,7 @@ print("\n")
 # Dimana jeneng akan menjadi variabel yang bisa ditambahkan / digunakan secara fleksibel seperti contoh dibawah:
 def hi(jeneng="Kawan"):
     # Code diatas, value Kawan di dalam parameter jeneng akan menjadi isi default yang akan dipanggil otomatis bila pada perintah kita tidak memanggil variabel / memasukkan nilai
-    print('Hi, ' + jeneng)
+    print(f'Hi, {jeneng}')
 
 
 hi("Putra")
@@ -46,7 +46,7 @@ print("\n")
 
 def hai(asmi=input("Siapa nama kamu? "), umur=input("Berapa umur kamu? ")):
 
-    print("Hai " + asmi + ", You're " + str(umur) + " years old!")
+    print(f"Hai {asmi}, You're {str(umur)} years old!")
 
 
 hai("Rangga", '25')
