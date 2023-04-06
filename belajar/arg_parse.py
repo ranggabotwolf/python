@@ -22,3 +22,18 @@ print(args.color)
 # python [lokasi_file/nama_file] -c blue
 # maka yang akan tampil adalah blue
 # Karena program diatas mencari warna seperti yang sudah di tuliskan pada code baris 7
+
+# Bila kita menuliskan python [lokasi_file/nama_file] (tanpa -c warna)
+# Maka akan muncul tulisan begini :
+# usage: nama_file [-h] -c color
+# nama_file: error: the following arguments are required: -c/--color
+# Error tersebut terjadi karena kita tidak mendeklarasikan / menginputkan warna dalam shell
+
+# Kita juga bisa menambahkan option pada code baris ke 8, setelah required
+# contoh, bila kita menambahkan choices={'blue', 'yellow'}
+# maka hanya 2 warna, yaitu blue atau yellow yang akan dideteksi / yang bisa ditampilkan
+# selain 2 pilihan warna itu, maka akan tampil error seperti baris ke 30
+# dengan tambahan invalid choices: warna yang salah (choose from 'blue', 'yellow')
+
+# Menggunakan argparse membuat kita lebih mudah "to deal with arguments"
+# dan lebih memudahkan kita "communicate information back" ke user tentang apa yang coba kita ingin dapatkan
