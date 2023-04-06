@@ -44,3 +44,16 @@ hello()
 # Dengan membuat file __init__.py pada suatu folder
 # Maka itu akan memberitahu python bahwa folder tersebut mempunyai modules
 # Dalam kasus ini dalam folder lib, terdapat file function.py
+
+# Berikut adalah macam-macam Modules dari library yang bisa kita import :
+# math for math utilities
+# re for regular expressions
+# json to work with JSON
+# datetime to work with dates
+# sqlite3 to use SQLite
+# os for Operating System utilities
+# random for random number generation
+# statistics for statistics utilities
+# requests to perform HTTP network requests
+# http to create HTTP servers
+# urllib to manage URLs
