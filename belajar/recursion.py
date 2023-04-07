@@ -19,3 +19,7 @@ def factorial(n):
 # Kita harus membuat base case jadi functionnya bisa berhenti
 # bila kita tidak membuat base case nya, maka yang akan terjadi adalah infinite / error
 print(factorial(3))
+print(factorial(4))
+print(factorial(5))
+print(factorial(6))
+
