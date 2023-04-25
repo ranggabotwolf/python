@@ -1,5 +1,8 @@
 {
   "python.analysis.typeCheckingMode": "basic",
   "python.formatting.provider": "black",
-  "wolf.disableHotModeWarning": true
+  "wolf.disableHotModeWarning": true,
+  "python.linting.mypyEnabled": false,
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true
 }
